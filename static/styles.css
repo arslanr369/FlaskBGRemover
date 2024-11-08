@@ -3,8 +3,8 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #6dd5ed, #2193b0);
-    color: #fff;
+    background: linear-gradient(135deg, #8e44ad, #3498db);
+    color: #f5f5f5;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -12,19 +12,20 @@ body {
 
 header {
     text-align: center;
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background: linear-gradient(to right, #f12711, #f5af19);
     padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
+    letter-spacing: 1.5px;
 }
 
 header p {
     margin: 10px 0 0;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 300;
 }
 
@@ -36,47 +37,52 @@ main {
 }
 
 .form-container {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 20px 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.6);
+    padding: 25px 35px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
     width: 90%;
-    max-width: 400px;
+    max-width: 450px;
     text-align: center;
 }
 
 .file-label {
-    font-size: 1.2rem;
-    font-weight: 400;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .file-input {
-    margin: 10px 0 20px;
-    padding: 10px;
+    margin: 15px 0;
+    padding: 12px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     width: 100%;
+    font-size: 1rem;
+    background-color: #ecf0f1;
+    color: #333;
 }
 
 .submit-btn {
-    background-color: #4caf50;
+    background-color: #1abc9c;
     color: white;
-    padding: 12px 24px;
-    font-size: 1.2rem;
+    padding: 14px 28px;
+    font-size: 1.3rem;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .submit-btn:hover {
-    background-color: #45a049;
+    background-color: #16a085;
+    transform: scale(1.05);
 }
 
 footer {
     text-align: center;
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
-    padding: 10px;
+    background: linear-gradient(to right, #f12711, #f5af19);
+    padding: 15px;
     font-size: 1rem;
-    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
 }
