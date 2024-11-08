@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flask Background Remover</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Flask Background Remover</h1>
+        <p>Effortlessly remove image backgrounds with a single click!</p>
     </header>
     <main>
-        <form method="POST" enctype="multipart/form-data">
-            <label for="image">Upload an Image:</label>
-            <input type="file" name="image" required>
-            <button type="submit">Remove Background</button>
-        </form>
+        <div class="form-container">
+            <form method="POST" enctype="multipart/form-data">
+                <label for="image" class="file-label">Upload an Image:</label>
+                <input type="file" name="image" id="image" class="file-input" required>
+                <button type="submit" class="submit-btn">Remove Background</button>
+            </form>
+        </div>
     </main>
     <footer>
-        <p>© 2024 Flask BG Remover</p>
+        <p>© 2024 Flask BG Remover | Created by Arslanr369 with 💖</p>
     </footer>
 </body>
 </html>
